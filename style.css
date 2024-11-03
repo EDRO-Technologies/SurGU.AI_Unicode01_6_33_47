@@ -1,0 +1,38 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);     
+}
+.wrapper {
+display: flex;
+width: 100%;
+height: 100%;
+justify-content: center;
+padding-top: 400px;
+}
+@media (min-width: 1280px) {
+ .send_button{
+    margin: auto;
+    height: 300px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}   
+.svg_btn {
+    width: 300px;
+    height: auto;
+}
+}
+
+@media (max-width: 1280px) {
+    .send_button{
+       margin: auto;
+       height: 150px;
+       background: none;
+       border: none;
+       cursor: pointer;
+   }   
+   .svg_btn {
+       width: 150px;
+       height: auto;
+   }
+   }
